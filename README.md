@@ -1,6 +1,6 @@
 # Book Prime
 
-This app helps you in finding the name of fruit's emoji through search or by clicking on the emojis.
+A book recommendation app built with ReactJS that shows my favourite books with author and ratings.
 
 ### Tech Stack
 
