@@ -71,7 +71,6 @@ code {
 }
 .container ul li {
   padding: 1.5rem;
-  cursor: pointer;
   width: 100%;
   border: 1px solid #d1d5db;
   margin: 1rem 0rem;
