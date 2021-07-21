@@ -1,38 +1,94 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #6d28d9;
+  --secondary-color: #7c3aed;
+  --light-violet: #ede9fe;
+  --dark-violet: #5b21b6;
+  --gray: #71717a;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0px;
+  background-color: var(--light-yellow);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* container */
+.container {
+  padding: 0rem 1rem;
+}
+.container-center {
+  max-width: 450px;
+  margin: auto;
+}
+
+/* section */
+.section {
+  padding: 0rem 1.5rem;
+}
+.section-center {
+}
+
+/* header */
+.hero {
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-heading {
+  color: var(--gray);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 520px) {
+  .hero {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+  }
+  .section {
+    padding: 0rem 0.5rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.container ul {
+  list-style: none;
+  padding-inline-start: 0rem;
+}
+.container ul li {
+  padding: 1.5rem;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  margin: 1rem 0rem;
+  border-radius: 0.4rem;
+}
+
+.container button {
+  padding: 0.6rem 1.2rem;
   color: white;
+  background-color: var(--primary-color);
+  border-radius: 0.3rem;
+  margin: 0rem 0.3rem;
+  margin-top: 0.5rem;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container button:hover {
+  background-color: var(--secondary-color);
 }
