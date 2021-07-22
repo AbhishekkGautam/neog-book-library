@@ -78,8 +78,8 @@ code {
 }
 
 .container button {
-  padding: 0.6rem 1rem;
-  font-size: 15px;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
   color: white;
   background-color: var(--primary-color);
   border-radius: 0.3rem;
@@ -87,6 +87,7 @@ code {
   margin-top: 0.5rem;
   border: none;
   cursor: pointer;
+  font-family: "DM Sans", sans-serif;
 }
 
 .container button:hover {
