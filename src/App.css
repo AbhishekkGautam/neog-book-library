@@ -110,3 +110,16 @@ code {
   padding: 0.2rem 0.6rem;
   border-radius: 0.3rem;
 }
+
+@media only screen and (max-width: 520px) {
+  .hero {
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+  }
+  .section {
+    padding: 0rem;
+  }
+  .container .img-container {
+    max-width: 35%;
+  }
+}
