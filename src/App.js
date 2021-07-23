@@ -145,7 +145,7 @@ export default function App() {
                     <div style={{ fontSize: "smaller", marginTop: "0.2rem" }}>
                       {book.author}
                     </div>
-                    <div style={{ marginTop: "0.7rem" }}> {book.rating} </div>
+                    <div className="rating"> {book.rating} </div>
                   </div>
                 </li>
               ))}

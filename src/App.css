@@ -55,16 +55,6 @@ code {
   text-align: center;
 }
 
-@media only screen and (max-width: 520px) {
-  .hero {
-    padding-top: 2rem;
-    padding-bottom: 0rem;
-  }
-  .section {
-    padding: 0rem 0.5rem;
-  }
-}
-
 .container ul {
   list-style: none;
   padding-inline-start: 0rem;
@@ -98,9 +88,8 @@ code {
 }
 
 .container .img-container {
-  width: 40%;
+  max-width: 30%;
   height: 160px;
-  overflow: hidden;
 }
 
 .container .img-container img {
@@ -109,5 +98,15 @@ code {
 }
 
 .book-content {
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 0rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+.book-content .rating {
+  display: inline-block;
+  margin-top: 1.3rem;
+  background-color: #fde047;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.3rem;
 }
