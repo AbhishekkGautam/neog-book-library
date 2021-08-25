@@ -36,8 +36,6 @@ code {
 .section {
   padding: 0rem 1.5rem;
 }
-.section-center {
-}
 
 /* header */
 .hero {
@@ -120,6 +118,7 @@ code {
 
 .footer ul {
   padding-inline-start: 0px;
+  border: none;
 }
 
 .footer a {
